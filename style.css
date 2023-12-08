@@ -1,0 +1,90 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    width: 1160px;
+    height: 677px;
+    background-color:#2D25A0;
+    padding: 42px 156px;
+    color: #FFFFFF;
+}
+.navigation{
+    width: 1160px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.menu{
+    display: flex;
+
+}
+.menu a{
+    text-decoration: none;
+    color:#FFFFFF;
+    margin-right: 36px;
+    font-size: 16px;
+
+}
+.btn{
+    border: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.btn i{
+    margin-right: 8px;
+}
+.div-1{
+    width: 1160px;
+    height: 440px;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 67px;
+}
+.part-1{
+    width: 485px;
+ 
+    
+}
+.part-1-para{
+    height: 230px;
+    font-size: 60px;
+    margin-bottom: 27px;
+}
+#watch{
+    margin-top: 27px;
+}
+.part-2{
+    width: 556.01px;
+    height: 438px;
+    background-image: url(./images/banner.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 100%;
+}
+.main{
+    width: 1050px;
+    margin: 70px 180px;
+    height: 800px;
+    border: 2px solid rebeccapurple;
+}
+.card{
+    height: 474px;
+    width: 330px;
+    border: 2px solid rebeccapurple;
+}
+.card img{
+    margin: 15px;
+    height: 256px;
+    width: 300px;
+}
+.card-details{
+    margin: 15px;
+    margin: 16px;
+}
+.card-details b{
+    font-size: 40px;
+}
