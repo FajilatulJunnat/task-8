@@ -119,17 +119,25 @@ body{
 .foo{
     width: 484px;
     margin: 158px 475px;
-    border: 2px solid black;
     text-align: center;
 }
 .foo img{
     height: 110px;
 }
 .icon-div{
+    margin: auto;
+    margin-top: 20px;
+    height: 32px;
+    width: 170px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.icon{
-    height: 320px;
+.icon-div img{
+    height: 32px;
     width: 32px;
+}
+.foo p{
+    margin-top: 20px;
+    font-size: 18px;
 }
